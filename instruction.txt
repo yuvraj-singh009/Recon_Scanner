@@ -1,4 +1,7 @@
-cd recon_scanner
+git clone https://github.com/yuvraj-singh009/Recon_Scanner.git
+cd Recon_Scanner
+sudo apt install python3-venv -y
 python3 -m venv venv
 source venv/bin/activate
-python3 main.py example.com
+pip install -r requirements.txt
+python3 main.py  domain name
