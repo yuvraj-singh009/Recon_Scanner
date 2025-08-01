@@ -1,6 +1,6 @@
 import os
 import sys
-# from modules import dns_lookup, whois_info, port_scan, ssl_info, vuln_scan
+import dns_lookup, whois_info, port_scan, ssl_info, vuln_scan
 
 def run_scan(target):
     os.makedirs("output", exist_ok=True)
